@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NANS Printing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Nans Printing" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="why.html">Why Us?</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>NANS Printing</h2>
+    <p>Printing Services</p>
+    <h1 class="tagline">NANS Printing, Quality That's Winning!</h1>
+  </section>
+
+  <section class="custom-contact-block">
+  <h2>CONTACT US NOW!</h2>
+  <p>Let's get this conversation started. Please fill-up the form below, and we'll get in touch as soon as we can.</p>
+  <div class="custom-contact-list">
+    <div class="contact-box">
+      <div class="contact-icon location-icon"></div>
+      <div>
+        <strong>VISIT US!</strong>
+        <p>Narra St. Payatas B.<br />Quezon City, Metro Manila,<br />Philippines</p>
+      </div>
+    </div>
+    <div class="contact-box">
+      <div class="contact-icon phone-icon"></div>
+      <div>
+        <strong>CALL US!</strong>
+        <p>+63 993 727 8021</p>
+      </div>
+    </div>
+    <div class="contact-box">
+      <div class="contact-icon email-icon"></div>
+      <div>
+        <strong>EMAIL US</strong>
+        <p>nansprinting@gmail.com</p>
+      </div>
+ </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nans Printing. All rights reserved.</p>
+    <p>Developed by: <strong>Aragonis & Baroro/NANS Printing</strong></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
